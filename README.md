@@ -46,4 +46,11 @@ time, with a specific focus on financial market data.
     pipeline, including data cleaning, in-depth analysis, and model
     evaluation.
 
+    ## Key Results
+- RMSE: **908.53**
+- MAE: **23.56**
+
+The model demonstrates stable performance for monthly sales forecasting and captures underlying trends and seasonality effectively.
+
+
     
