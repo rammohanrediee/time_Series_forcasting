@@ -1,56 +1,61 @@
+# Time Series Forecasting Projects
 
-# Time Series Forecasting Project
+This repository contains Jupyter notebooks demonstrating time series
+analysis and forecasting techniques using real-world datasets. The
+projects focus on understanding temporal patterns, model assumptions,
+and forecast evaluation.
 
-This repository contains a collection of Jupyter notebooks for
-performing time series forecasting. The project demonstrates various
-techniques for analyzing and predicting data that is collected over
-time, with a specific focus on financial market data.
+---
 
-## Files
+## Notebooks
 
--   **forecasting.ipynb**: This notebook serves as a foundational guide
-    to time series analysis. It covers essential steps such as data
-    loading, exploratory data analysis (EDA), visualizing trends and
-    seasonality, and checking for stationarity using the Augmented
-    Dickey-Fuller (ADF) test. It also includes a comparison of ARIMA and
-    SARIMA models.
--   **MNC_forecasting.ipynb**: This notebook applies time series
-    forecasting to real-world financial data. It focuses on predicting
-    the stock prices of a multinational corporation (MNC) using the
-    yfinance library to fetch data and the ARIMA model to generate a
-    forecast.
+### 1. forecasting.ipynb
+A foundational notebook covering core time series concepts, including:
+- Data loading and preprocessing
+- Exploratory Data Analysis (EDA)
+- Trend and seasonality visualization
+- Stationarity testing using the Augmented Dickey-Fuller (ADF) test
+- Model comparison using ARIMA and SARIMA
 
-## Technologies
+This notebook focuses on building intuition around classical time series
+methods.
 
--   **Python**: The core programming language used for the project.
--   **Pandas**: A data manipulation and analysis library, used
-    extensively for handling time series data.
--   **Matplotlib**: A plotting library used for visualizing data,
-    trends, and model results.
--   **Statsmodels**: A powerful library for statistical modeling, which
-    includes the ARIMA and SARIMA models for time series forecasting.
--   **yfinance**: A library that provides a simple way to download
-    historical market data from Yahoo! Finance.
+---
 
-## Project Highlights
+### 2. MNC_forecasting.ipynb
+An applied forecasting project using real-world business data to predict
+monthly sales for a multinational corporation.
 
--   Developed and deployed a time series forecasting model in Python to
-    predict monthly sales for a multinational corporation.
--   Utilized the Prophet library to analyze historical sales data,
-    providing key business insights for strategic planning and resource
-    allocation.
--   The model's accurate sales projections directly supported
-    data-driven decision-making, which is crucial for supply chain and
-    inventory optimization.
--   Demonstrated strong proficiency in the end-to-end data science
-    pipeline, including data cleaning, in-depth analysis, and model
-    evaluation.
+Key steps include:
+- Time series visualization and trend analysis
+- Model building using Prophet
+- Forecast evaluation using error metrics
+- Interpretation of results for business decision-making
 
-    ## Key Results
-- RMSE: **908.53**
-- MAE: **23.56**
+---
 
-The model demonstrates stable performance for monthly sales forecasting and captures underlying trends and seasonality effectively.
+## Key Results (MNC_forecasting.ipynb)
 
+- **RMSE:** 908.53  
+- **MAE:** 23.56  
 
-    
+The model demonstrates stable performance for monthly sales forecasting
+and effectively captures underlying trends and seasonality.
+
+---
+
+## Technologies Used
+
+- Python  
+- Pandas  
+- Matplotlib  
+- Prophet  
+- Statsmodels  
+
+---
+
+## Key Takeaways
+
+- Applied classical and modern time series models to real datasets
+- Evaluated forecasts using quantitative error metrics
+- Gained practical experience in end-to-end time series modeling
